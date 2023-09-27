@@ -1,8 +1,8 @@
 <style>
   :root {
     --youtube-red: rgb(200, 0, 0);
-    --join-blue: rgb(41, 118, 211);
-    --twitter-blue: rgb(5, 135, 187);
+    --join-blue: rgb(6, 95, 212);
+    --twitter-blue: rgb(29, 155, 240);
     --shadow: rgba(0, 0, 0, 0.25)
   }
 
@@ -10,12 +10,15 @@
     margin: 0 4px;
   }
 
+  .std-align {
+    vertical-align: top;
+  }
+
   .subscribe-btn {
     background-color: var(--youtube-red);
     color: white;
     border: none;
-    height: 36px;
-    width: 105px;
+    padding: 10px 16px;
     border-radius: 2px;
     cursor: pointer;
     transition: opacity 0.15s;
@@ -35,8 +38,7 @@
     border-style: solid;
     border-width: 1px;
     color: var(--join-blue);
-    height: 36px;
-    width: 62px;
+    padding: 9px 16px;
     border-radius: 2px;
     cursor: pointer;
     transition: background-color 0.15s,
@@ -58,8 +60,7 @@
     color: white;
     border: none;
     border-radius: 18px;
-    height: 36px;
-    width: 74px;
+    padding: 10px 16px;
     font-weight: bold;
     font-size: 15px;
     cursor: pointer;
@@ -71,6 +72,6 @@
   }
 </style>
 
-<button class="subscribe-btn std-margin">SUBSCRIBE</button>
-<button class="join-btn std-margin">JOIN</button>
-<button class="tweet-btn std-margin">Tweet</button>
+<button class="subscribe-btn std-margin std-align">SUBSCRIBE</button>
+<button class="join-btn std-margin std-align">JOIN</button>
+<button class="tweet-btn std-margin std-align">Tweet</button>
